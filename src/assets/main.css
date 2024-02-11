@@ -1,0 +1,40 @@
+@import './base.css';
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+main{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.caja{
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  min-width: 50%;
+  max-width: 80%;
+  color: black;
+}
+.item{
+  font-size: 20px;
+  border: 1px solid rgb(152, 152, 152);
+  border-radius: 5px;
+  padding: 5px;
+  margin: 10px 0;
+  display: flex;
+}
+.check{
+  text-decoration: dashed;
+  background-color: #ccc;
+}
+input,select{
+  padding: 8px;
+  margin:10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 20px;
+}
